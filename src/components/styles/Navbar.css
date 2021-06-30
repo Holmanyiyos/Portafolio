@@ -1,0 +1,27 @@
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #cccdd1;
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:#cccdd1;
+}
+.nav a:nth-child(3){
+    position: relative;
+}
+.nav a:nth-child(3)::after{
+    content: '|';
+    position: absolute;
+    right: -50%;
+    top: 0;
+}
